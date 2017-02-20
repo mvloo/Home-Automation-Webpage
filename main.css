@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+    top: 0;
+    bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+
+#bar {
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 100px;
+    position: relative;
+    color: black;
+    background-color: whitesmoke;
+    font-size: 2rem;
+}
+
+#bar p {
+    padding-left: 10px;
+    float: left;
+    left: 0;
+    right: 0;
+    
+}
+
+#bar2 {
+    margin-right: 10px;
+    height: auto;
+    float: right;
+}
+
+#bar2 a {
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    height: 100px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height:100px;
+    float: left;
+    color: gray;
+    text-decoration: none;
+    position: inherit;
+}
+
+#main {
+    right: 5px;
+    left: 5px;
+    top: 105px;
+    bottom: 5px;
+    position: absolute;
+}
+
+#main a {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    font-size: 4rem;
+}
+
+
+#item1 {
+    left: 0;
+    top: 0;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+#item2 {
+    right: 0;
+    top: 0;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background-color: grey;
+}
+
