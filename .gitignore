@@ -3,7 +3,7 @@ Thumbs.db
 font/*
 img/lightbox/*
 img/overlays/
-css/*
 !css/styles.css
+css/*
 js/*
 sass/*
